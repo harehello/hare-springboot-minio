@@ -1,0 +1,15 @@
+server:
+  port: 9005
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  servlet:
+    multipart:
+        max-file-size: 100MB
+        max-request-size: 100MB
+
+minio:
+  endpoint: http://127.0.0.1:9000
+  access-key: admin
+  secret-key: admin123
+  bucket: test
